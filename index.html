@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="Description"
+            content="A very basic frontend form for testing smart contracts written for Patrick Collins's full stack web3 course"
+        />
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="./index.css" />
+
+        <title>Fund Me App</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Header -->
+            <h1 id="header">Fund Me</h1>
+            <!-- connect -->
+            <button id="connectButton" class="button">Connect</button>
+            <!-- balance -->
+            <button id="balanceButton" class="button">Contract Balance</button>
+            <p id="currentBalanceDisplay"></p>
+            <!-- withdraw -->
+            <button id="withdrawButton" class="button">Withdraw</button>
+            <!-- fund -->
+            <h2 class="secondary-header">Fund this Contract</h2>
+            <p id="connectedContract"></p>
+            <label for="fund">ETH Amount</label>
+            <input id="ethAmount" placeholder="0.1" />
+            <button id="fundButton" class="button">Fund</button>
+        </div>
+        <!-- scripts -->
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+/* reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(27, 36, 36);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+}
+
+#header, .secondary-header {
+    color:rgb(111, 211, 214); 
+}
+
+#ethAmount {
+    text-align: center;
+    appearance: none;
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    padding: .2rem;
+}
+
+label {
+    color:rgb(111, 211, 214); 
+}
+
+.button {
+    appearance: none;
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    padding: .2rem;
+    background-image: linear-gradient(rgb(56, 99, 179), rgb(111, 211, 214));
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgb(83, 127, 209), rgb(166, 236, 238));
+    border: 1px solid white;
+}
+
+#connectedContract {
+    color: pink;
+}
+
+#currentBalanceDisplay {
+    color: rgb(111, 211, 214);
+    height: 2rem;
+    padding: .2rem;
+}
